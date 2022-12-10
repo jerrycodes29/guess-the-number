@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    box-sizing: inherit;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 5vh;
+}
+
+.heading,
+.panel,
+.input-section,
+.score-panel,
+.number-panel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading,
+.panel,
+.input-section {
+    padding: 1.5rem;
+}
+.heading {
+    gap: 0.5rem;
+}
+.panel {
+    gap: 4rem;
+    text-align: center;
+}
+.score-panel {
+    gap: 0.5rem;
+}
+.number-panel {
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+.number {
+    border-radius: 100%;
+    border: 3px dashed #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    padding: 0.5rem 3.5rem;
+    width: fit-content;
+}
+.input-section {
+    gap: 2rem;
+}
+.guess {
+    border-radius: 0.25rem;
+    border: 2px solid #000000;
+    font-size: 2rem;
+    outline: none;
+    padding: 0.25rem;
+    text-align: center;
+    width: 7rem;
+}
+.guess:focus {
+    box-shadow: 3px solid #000000;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.btn-group > button {
+    margin-right: 0.75rem;
+}
+.btn-group > button:last-child {
+    margin-right: 0;
+}
+.btn {
+    background-color: #000000;
+    border-radius: 0.75rem;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.btn:hover {
+    background-color: #222222;
+}
+.btn:active {
+    background-color: #000000;
+    outline: 2px solid #000000;
+}
