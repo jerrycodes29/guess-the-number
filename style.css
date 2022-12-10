@@ -45,8 +45,8 @@
     border: 4px dashed #000000;
     font-family: 'Courier New', Courier, monospace;
     font-size: 7rem;
-    padding: 0.5rem 3.5rem;
-    width: fit-content;
+    padding: 2rem;
+    width: 8rem;
 }
 .input-section {
     gap: 2rem;
