@@ -33,6 +33,7 @@
     text-align: center;
 }
 .score-panel {
+    font-size: 1.25rem;
     gap: 0.5rem;
 }
 .number-panel {
@@ -41,7 +42,7 @@
 }
 .number {
     border-radius: 100%;
-    border: 3px dashed #000000;
+    border: 4px dashed #000000;
     font-family: 'Courier New', Courier, monospace;
     font-size: 7rem;
     padding: 0.5rem 3.5rem;
@@ -55,7 +56,7 @@
     border: 2px solid #000000;
     font-size: 2rem;
     outline: none;
-    padding: 0.25rem;
+    padding: 0.5rem 0.25rem;
     text-align: center;
     width: 7rem;
 }
