@@ -1,5 +1,5 @@
 'use strict'
-const $ = (selector) => document.querySelector(selector)
+const $ = selector => document.querySelector(selector)
 
 let randomNumber = Math.trunc(Math.random() * 30) + 1
 const winningNumber = $('.number')
@@ -27,6 +27,7 @@ const checkGuessValue = function () {
         $('body').style.backgroundColor = '#68B984'
         winningNumber.style.backgroundColor = '#ffffff'
         winningNumber.style.borderStyle = 'solid'
+        winningNumber.textContent = randomNumber
 
         if (highScore < score) {
             highScore = score
