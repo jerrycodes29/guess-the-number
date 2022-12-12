@@ -53,6 +53,9 @@ const checkGuessValue = function () {
 }
 
 $('#checkBtn').addEventListener('click', checkGuessValue)
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') checkGuessValue()
+})
 
 $('#resetBtn').addEventListener('click', function () {
     $('body').style.backgroundColor = '#eeeee5'
